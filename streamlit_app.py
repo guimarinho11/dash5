@@ -42,7 +42,7 @@ if not st.session_state.logged_in:
     st.stop()
 
 # Caminho do diretório contendo o arquivo CSV
-data = "tabela_origem"
+data = "tabela_origem/dados.csv"
 
 # Carregar os dados
 data1 = pd.read_csv(data, delimiter=';')
